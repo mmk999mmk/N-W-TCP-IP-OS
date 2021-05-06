@@ -1,0 +1,63 @@
+----------------------
+Hardware of a system:		
+----------------------
+Ports
+Motherboard
+RAM
+Hardrive
+Registers
+RAM vs Hard drive
+CPU 32 bit and 64 bit difference of handling and execution of billion of instructions per second.
+GPU graphics like in parallelistion it is a specialist
+BIOS & UEFI
+
+----------------------
+OS:		
+----------------------
+Kernal and userspace
+files and file system and extension
+linux file system and naming is case sensitive 
+windows and mac are care insensitive
+-------------------
+Process management:
+-------------------
+like time slicing
+FCFS-First come first serve
+SJF-shortest job first
+Priority scheduling-giving priority
+RRM-robin round method
+
+shared memory and message passing
+----------------------------------
+Threading:
+----------
+Multi thread
+Dead lock and we should avoid round methods
+for the important thing we should be put lock
+
+----------------------------------------------
+Memory management:
+-------------------
+Primary memory and secondary memory.
+Contingueous memory allocation:
+Fragmentation-internal(with in a block like out of 1 MB we use 0.8 MB) and external(if we have 1024MB we will use 1 and 1024 slots so in the middle are empty)
+for this we use paging
+Non-Contingueous memory allocation:
+logical memory(continuous) and physical memory(main memory will be given some parts)
+Paging - swapping and demand paging
+Frames
+LRU-last recentluy used
+LFU-last frequently used
+page hit
+page fault
+--------------
+I/O management:
+Keyboard
+mouse
+...
+
+--------------
+File management:
+----------------
+Meta data
+extensions like.html,.py...

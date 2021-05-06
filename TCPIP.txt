@@ -1,0 +1,89 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                        Network
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Application - message
+Transport   - segment
+Network     - datagram
+Data-link   - frames
+Physical
+---------
+Physical:
+---------
+cables,n/w ports
+hubs
+
+
+-------------
+Data-link:
+-------------
+collision,CSMA
+one after other communication (you talk i listen or i talk you listen)
+switches
+MAC address
+
+-------------
+Network:
+-------------
+ipv4 - 32 bit
+ipv6 - 128 bit
+IP address+host id=subnet mask(CIDR - ip address/23 means in a 32 bit the 23 bits are ip address and 9 bits are for host id)
+TTL-time to live for the reducing the traffic in n/w or to avoid congestion
+Routers
+Shortest path - hop means route where to go next
+
+----------
+Transport:
+----------
+port no. for applications
+multiplexing and demultiplexing
+handshake
+3 way and 4 way
+syn and fin
+TCP-transfer control protocol -  there is ack in this type and waits for ack for the next
+UDP-user datagram protocol - there is nothing like ack and it will send continuously
+------------
+Application:
+------------
+DNS- domain name system
+domain registrars
+root:
+toplevel - 1.in
+domain       (i)ccbp
+subdomain       1.mssrmkumar
+path like login,product,cart
+2.org
+3.com
+
+we can change our server for domain name in DNS and it is easy for moving the servers(ip address) from one place to other place.
+catche is used to store for some days or minutes or hours and save time for us and foe eliminating congestion in n/w.
+http:80 - unsecure and will able to stole the data
+https:443 - secure and encrypted data unable to stole
+SMTP for email sending
+
+A ipv4
+AAAA ipv6
+CNAME canonical name redirection
+MX mail exchanger mails sending to correct server
+NS name server delegate part of subdomain to other server
+TXT text record carries machine readable data
+
+web server ---> backend application server ---> database	
+
+request 
+response
+
+GET - gets the data
+PUT - manipulates the data
+POST - new data to the file
+DELETE - deletes the data from the file
+
+1xx - informational
+2xx-success
+3xx-redirecting
+4xx-client error
+5xx-server error
+
+
